@@ -312,6 +312,23 @@ a:focus, a:hover {
 	z-index:999;
 }
 
+@media only screen and (max-width: 800px) {
+	.navbar {
+		font-size: 1.3rem;
+		text-transform: uppercase;
+		border:1px solid #f4f5f6;
+		border-width:1px 0;
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #ffffff;
+	    top: 0;
+		text-align: center;
+		z-index:999;
+	}
+}
+
 li {
 	background-color: white;
 	display: inline;
