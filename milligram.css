@@ -119,7 +119,7 @@ input[type='radio'] {
   margin: 0 auto;
   max-width: 112.0rem;
   padding: 0 2.0rem;
-  position: relative;
+  position: static;
   width: 100%;
 }
 
