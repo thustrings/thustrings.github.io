@@ -465,13 +465,19 @@ margin-top:-20px;
   background-color: #ce99ff;
 }
 
-.imgdiv img, .imgdiv p, .imgdiv h4{
+.imgdiv img, .imgdiv p, .imgdiv h5 {
 	display: none;
+}
+
+.imgdivprime p {
+	display: inline;
 }
 
 @media screen and (min-width: 975px){
 	
-  .imgdiv img, .imgdiv p, .imgdiv h4 { display: inline; }
+  .imgdiv img, .imgdiv p, .imgdiv h5 { display: inline; }
+  
+  .imgdivprime p { display: none; }
 
   .grid{
     grid-template-areas:
