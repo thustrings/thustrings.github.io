@@ -58,7 +58,7 @@ input[type='submit'] {
   font-size: 1.1rem;
   font-weight: 0;
   height: 3.8rem;
-  width: 10.0rem;
+  width: 11.5rem;
   letter-spacing: .1rem;
   line-height: 3.8rem;
   padding: 0 1.0rem;
@@ -210,7 +210,8 @@ weekly {
 hr {
   border: 0;
   border-top: 0.1rem solid #f4f5f6;
-  margin: 3.0rem 0;
+  /*margin: 3.0rem 0;*/
+  margin: 2.0rem 1.0rem;
 }
 
 select {
@@ -449,6 +450,10 @@ margin-top:-20px;
   ;
 }
 
+.centertable { 
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .title{
   grid-area: title;
@@ -588,6 +593,11 @@ th {
   text-align: left;
 }
 
+.twidth {
+	padding:.1rem 1rem;
+}
+
+
 td:first-child,
 th:first-child {
   padding-left: 0;
@@ -635,7 +645,7 @@ h2purple {
 }
 
 h0 {
-  font-size: 4.6rem;
+  font-size: 5.0rem;
   line-height: 1.3;
   font-family: 'Roboto', 'Helvetica Neue','Open Sans', sans-serif;
 }
