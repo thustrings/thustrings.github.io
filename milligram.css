@@ -17,6 +17,13 @@ html {
   font-size: 62.5%;
 }
 
+textbox {
+	float:right;
+    font-size: 2.8rem;
+    line-height: 1.3;
+	padding: 0 5rem;
+}
+
 body {
   color: #000000;
   font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
