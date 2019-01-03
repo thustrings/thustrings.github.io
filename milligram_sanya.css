@@ -77,8 +77,8 @@ input[type='reset']:focus,
 input[type='reset']:hover,
 input[type='submit']:focus,
 input[type='submit']:hover {
-  background-color: #606c76;
-  border-color: #606c76;
+  background-color: #9b4dca;
+  border-color: #9b4dca;
   color: #fff;
   outline: 0;
 }
@@ -123,10 +123,12 @@ input[type='reset'].button-outline:focus,
 input[type='reset'].button-outline:hover,
 input[type='submit'].button-outline:focus,
 input[type='submit'].button-outline:hover {
-  background-color: transparent;
-  border-color: #606c76;
-  color: #606c76;
+    background-color: #9b4dca;
+    border-color: #9b4dca;
+    color: #fff;
+    outline: 0;
 }
+
 
 .button.button-outline[disabled]:focus, .button.button-outline[disabled]:hover,
 button.button-outline[disabled]:focus,
@@ -212,6 +214,11 @@ hr {
   border-top: 0.1rem solid #f4f5f6;
   /*margin: 3.0rem 0;*/
   margin: 2.0rem 1.0rem;
+}
+
+.hrcolor {
+    border-top: 0.1rem solid #000000;
+	margin: 2.0rem 0rem;
 }
 
 select {
@@ -592,6 +599,11 @@ th {
   /* border-bottom: 0.1rem solid #e1e1e1; */ 
   padding: .6rem 2rem;
   text-align: left;
+}
+
+table.borders td, th {
+	border-bottom: 0.1rem solid #000000;
+	  padding: .75rem 2rem;
 }
 
 .twidth {
