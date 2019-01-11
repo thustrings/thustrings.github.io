@@ -427,14 +427,17 @@ a:focus, a:hover {
 }
 
 a.background {
-	color: #000000;
+	color: #9b4dca;
 	text-decoration: none;
 }
 
-a.background:focus, a.background:hover {
+a.background:hover {
   color: #fdff99;
 }
 
+a.background:focus {
+	color: #9b4dca;
+}
 
 .navbar {
 	font-size: 1.3rem;
