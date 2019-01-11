@@ -427,7 +427,7 @@ a:focus, a:hover {
 }
 
 a.background {
-	color: #9b4dca;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -436,7 +436,7 @@ a.background:hover {
 }
 
 a.background:focus {
-	color: #9b4dca;
+	color: #000000;
 }
 
 .navbar {
